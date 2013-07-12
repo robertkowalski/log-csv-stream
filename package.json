@@ -1,0 +1,28 @@
+{
+  "name": "log-csv",
+  "version": "0.1.0",
+  "description": "Log values from streams as a csv with timestamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "~1.9",
+    "rimraf": "2.1.4",
+    "mkdirp": "~0.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:robertkowalski/log-csv.git"
+  },
+  "keywords": [
+    "logging",
+    "log",
+    "csv"
+  ],
+  "author": "Robert Kowalski <rok@kowalski.gd>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/robertkowalski/log-csv/issues"
+  }
+}
