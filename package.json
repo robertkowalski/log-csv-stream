@@ -1,7 +1,7 @@
 {
-  "name": "log-csv",
+  "name": "log-csv-stream",
   "version": "0.1.0",
-  "description": "Log values from streams as a csv with timestamp",
+  "description": "Log values from streams as a csv stream with timestamp",
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec"
@@ -9,7 +9,8 @@
   "devDependencies": {
     "mocha": "~1.9",
     "rimraf": "2.1.4",
-    "mkdirp": "~0.3.5"
+    "mkdirp": "~0.3.5",
+    "sinon": "~1.7.3"
   },
   "repository": {
     "type": "git",
